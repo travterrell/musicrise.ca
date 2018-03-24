@@ -1,0 +1,634 @@
+@font-face {
+  font-family: chosence;
+  src: url(assets/chosence.otf); }
+
+@font-face {
+  font-family: walkway;
+  src: url(assets/walkway.ttf); }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  min-height: 100%; }
+
+body {
+  min-height: 100%;
+  background-color: black; }
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent; }
+  body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent; }
+  body::-webkit-scrollbar-thumb {
+    background-color: red; }
+
+video {
+  margin: auto;
+  height: 200%;
+  z-index: -1;
+  position: fixed;
+  opacity: 0.7; }
+
+.main {
+  text-align: center;
+  color: white;
+  width: 100%; }
+
+#julian_taylor p {
+  text-align: center !important; }
+
+#julian_taylor a {
+  color: red; }
+
+#follow-us {
+  font-size: 15px; }
+
+.navlinks a:hover {
+  color: red; }
+
+.about p {
+  font-size: 20px; }
+
+.about span {
+  position: relative;
+  top: 1vh; }
+
+.footer {
+  text-align: center;
+  font-size: 10px !important;
+  font-family: arial; }
+  .footer span {
+    position: relative;
+    top: 3px; }
+
+.roster p {
+  font-size: 17px;
+  text-align: left;
+  text-indent: 10px;
+  max-width: 100% !important;
+  margin: 0px 0px 15px !important; }
+
+.roster_info::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent; }
+
+.roster_info::-webkit-scrollbar {
+  width: 3px;
+  background-color: transparent; }
+
+.roster_info::-webkit-scrollbar-thumb {
+  background-color: red; }
+
+.roster_pics {
+  overflow-y: scroll;
+  height: 300px; }
+
+ul {
+  margin-left: 30px;
+  font-size: 17px; }
+
+.rslides ul li {
+  margin: auto; }
+
+#q45_ul ul {
+  margin-left: 30px;
+  font-size: 17px !important; }
+
+.roster_social_links img {
+  border: none;
+  width: 30px;
+  margin: 0px; }
+
+input:focus {
+  outline-width: 0; }
+
+#contact_form {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  font-size: 20px; }
+
+.success {
+  color: #00ff06; }
+
+.error {
+  color: red; }
+
+#message {
+  max-height: 170px;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline-width: 0;
+  padding: 8px; }
+  #message::-webkit-scrollbar {
+    width: 1px; }
+  #message::-webkit-scrollbar-thumb {
+    background: red; }
+
+textarea:focus {
+  outline-width: 0; }
+
+#form_buttons {
+  text-align: center;
+  margin-bottom: 10px; }
+
+#travlogo {
+  width: 50px !important;
+  margin: 10px 0 10px; }
+
+@media only screen and (max-width: 599px) {
+  .st1 {
+    stroke-width: 3; }
+  .st2 {
+    stroke-width: 3; }
+  .st3 {
+    stroke-width: 3; } }
+
+@media only screen and (min-width: 600px) {
+  .st1 {
+    stroke-width: 2; }
+  .st2 {
+    stroke-width: 2; }
+  .st3 {
+    stroke-width: 2; } }
+
+@media only screen and (max-width: 320px) {
+  #index-logo {
+    margin-top: 30vh;
+    width: 100%; }
+  #ig-logo {
+    width: 30px;
+    margin-top: 5vh; }
+  #index-logo-small {
+    width: 80px; }
+  .home {
+    height: 96vh; }
+  .nav_home {
+    border-top: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .nav {
+    border-bottom: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .navlinks {
+    padding: 0px; }
+    .navlinks a {
+      color: white;
+      font-size: 13px;
+      text-decoration: none;
+      -webkit-transition: color 0.1s;
+      -o-transition: color 0.1s;
+      transition: color 0.1s; }
+  .about {
+    margin: auto;
+    padding-top: 7vh;
+    width: 100vw; }
+  .roster {
+    padding-top: 5vh;
+    width: 100vw;
+    margin: 0px auto -45px; }
+  .roster_info {
+    text-align: left;
+    width: 90%;
+    margin: 0px auto -45px; }
+  .rslides {
+    margin: auto;
+    list-style-type: none;
+    width: 95%; }
+  #about_h1 {
+    width: 72px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #roster_h1 {
+    width: 84px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #contact_h1 {
+    width: 96px;
+    margin: 20px auto 15px;
+    border-bottom: 1px solid red; }
+  p {
+    font-size: 15px;
+    max-width: 75%;
+    margin: auto; }
+  input {
+    color: white;
+    width: 100%;
+    height: 38px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 8px; }
+  .contact {
+    width: 100%;
+    margin-left: 0px;
+    height: 100vh;
+    padding-top: 2vh; }
+  .button {
+    width: 33%;
+    border: 1px solid white;
+    height: 26px;
+    padding: 0px;
+    margin-bottom: -1px; }
+  #travlogo_index {
+    width: 31px !important;
+    margin: 10px 0 10px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  #index-logo {
+    margin-top: 30vh;
+    width: 100%; }
+  #ig-logo {
+    width: 50px;
+    margin-top: 5vh; }
+  #index-logo-small {
+    width: 80px; }
+  .home {
+    height: 97vh; }
+  .about {
+    margin: auto;
+    padding-top: 6vh;
+    width: 100vw; }
+  p {
+    font-size: 19px;
+    max-width: 75%;
+    margin: auto; }
+  input {
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 8px; }
+  .button {
+    width: 33%;
+    border: 1px solid white; }
+  .bottom {
+    position: fixed;
+    bottom: 15px;
+    left: 0px;
+    width: 100%; }
+  #travlogo_index {
+    width: 44px !important;
+    margin: 10px 0 10px; } }
+
+@media only screen and (min-width: 768px) {
+  #index-logo {
+    margin-top: 20vh;
+    max-width: 1000px;
+    width: 100%; }
+  #ig-logo {
+    width: 50px;
+    margin-top: 5vh; }
+  #index-logo-small {
+    width: 150px; }
+  #tagline {
+    font-size: 34px; }
+  .home {
+    height: 96vh; }
+  .nav_home {
+    border-top: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .nav {
+    border-bottom: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .navlinks a {
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+    -webkit-transition: color 0.1s;
+    -o-transition: color 0.1s;
+    transition: color 0.1s; }
+  .about {
+    margin: auto;
+    padding-top: 15vh;
+    width: 100vw; }
+  .roster {
+    padding-top: 10vh;
+    margin: 0px auto -45px; }
+    .roster img {
+      width: 100%;
+      max-width: 350px;
+      border: 1px solid red;
+      margin-top: 20px; }
+  .roster_info {
+    text-align: left;
+    width: 90%;
+    margin: auto; }
+  .rslides {
+    margin: auto;
+    list-style-type: none;
+    width: 100%;
+    max-width: 354px; }
+  .roster_social_links {
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 7%; }
+  h1 {
+    color: white;
+    font-family: chosence, Arial;
+    font-size: 45px; }
+  #about_h1 {
+    width: 104px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #roster_h1 {
+    width: 121px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #contact_h1 {
+    width: 138px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  h2 {
+    color: red;
+    font-family: chosence, Arial;
+    font-size: 35px; }
+  p {
+    font-size: 19px;
+    max-width: 75%;
+    margin: auto; }
+  input {
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 8px; }
+  .contact {
+    height: 100vh;
+    margin: auto;
+    padding-top: 10vh; }
+    .contact img {
+      width: 100%;
+      max-width: 350px;
+      border: 1px solid red;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+  .button {
+    width: 100px;
+    border: 1px solid white;
+    font-size: 20px; }
+  .bottom {
+    position: fixed;
+    bottom: 15px;
+    left: 0px;
+    width: 100%; }
+  #travlogo_index {
+    width: 50px !important;
+    margin: 10px 0 10px; } }
+
+@media only screen and (max-width: 767px) {
+  #tagline {
+    font-size: 17px; }
+  .roster img {
+    width: 79vw;
+    border: 1px solid red;
+    margin-bottom: 15px; }
+  h1 {
+    color: white;
+    font-family: chosence, Arial;
+    font-size: 35px;
+    margin-bottom: 20px; }
+  h2 {
+    color: red;
+    font-family: chosence, Arial;
+    font-size: 35px;
+    margin-top: 200px; }
+  .contact img {
+    width: 79vw;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  #contact_form form {
+    font-size: 17px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  .nav_home {
+    border-top: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .nav {
+    border-bottom: 1px solid red;
+    width: 100%;
+    margin: 0px auto 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
+    transition: border 0.5s;
+    font-family: chosence, Arial; }
+  .navlinks {
+    padding: 0px; }
+    .navlinks a {
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+      -webkit-transition: color 0.1s;
+      -o-transition: color 0.1s;
+      transition: color 0.1s; }
+  .roster_info {
+    text-align: left;
+    width: 90%;
+    margin: auto; }
+  .contact {
+    width: 100%;
+    margin-left: 0px;
+    height: 100vh;
+    padding-top: 9vh; } }
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  .roster {
+    padding-top: 5vh;
+    margin: 0px auto -45px; }
+  .rslides {
+    margin: auto;
+    list-style-type: none;
+    width: 95%; }
+  .roster_social_links {
+    text-align: center;
+    margin-top: 8px;
+    text-align: center;
+    margin-top: 8px; }
+  #about_h1 {
+    width: 76px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #roster_h1 {
+    width: 85px;
+    margin: 0px auto 15px;
+    border-bottom: 1px solid red; }
+  #contact_h1 {
+    width: 98px;
+    margin: -20px auto 15px;
+    border-bottom: 1px solid red; } }
+
+@media only screen and (max-width: 320px) {
+  .roster_social_links {
+    text-align: center;
+    margin-top: 9px; } }
+
+@media only screen and (min-width: 580px) {
+  .modal-header {
+    padding: 15px;
+    border-bottom: none; }
+  .modal-content {
+    position: relative;
+    background-color: black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-image: url("http://2.img-dpreview.com/files/p/E~forums/58266651/91d715ec2aaf472ebad23b27f8624edf");
+    background-size: cover;
+    background-position: right;
+    height: 520px; }
+    .modal-content h1 {
+      color: gold;
+      text-shadow: 1px 1px #000000; }
+    .modal-content button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .modal-content button img {
+        width: 20px; }
+    .modal-content p {
+      font-size: 15px;
+      text-shadow: 1px 1px #000000;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+      width: 298px;
+      display: inline-table;
+      padding: 5px 15px;
+      border: 1px solid white; }
+    .modal-content a {
+      color: gold; }
+  .modal-body {
+    position: absolute;
+    padding: 15px;
+    right: 0; } }
+
+@media only screen and (max-width: 579px) {
+  .modal-header {
+    padding: 15px;
+    border-bottom: none; }
+  .modal-content {
+    position: relative;
+    background-color: black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-image: url("https://2.img-dpreview.com/files/p/E~forums/58266651/91d715ec2aaf472ebad23b27f8624edf");
+    background-size: cover;
+    background-position: 55%;
+    height: 345px;
+    margin-top: 15vh; }
+    .modal-content h1 {
+      color: gold;
+      text-shadow: 1px 1px #000000;
+      font-size: 25px;
+      margin: 0px auto;
+      width: 100px; }
+    .modal-content button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .modal-content button img {
+        width: 20px; }
+    .modal-content p {
+      font-size: 10px;
+      text-shadow: 1px 1px #000000;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+      width: 195px;
+      padding: 5px 15px;
+      border: 1px solid white; }
+    .modal-content a {
+      color: gold; }
+  .modal-body {
+    position: absolute;
+    padding: 0px;
+    right: 0;
+    height: 228px; } }
+
+@media only screen and (min-height: 1000px) {
+  .modal-content {
+    margin-top: 20vh; } }

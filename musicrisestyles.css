@@ -14,8 +14,7 @@
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -55,6 +54,14 @@ body {
     width: 100%;
     /*height: 100%;*/
     /*border: 2px solid white;*/
+  }
+
+  #julian_taylor p {
+    text-align: center !important;
+  }
+
+  #julian_taylor a {
+    color: red;
   }
 
     @media only screen and (max-width : 599px) {
@@ -181,7 +188,7 @@ body {
         border-top: 1px solid red;
         width: 100%;
         margin: 0px auto 0px;
-        position: absolute;
+        position: fixed;
         bottom: 0px;
         z-index: 10;
         background-color: black;
@@ -195,7 +202,7 @@ body {
         border-top: 1px solid red;
         width: 100%;
         margin: 0px auto 0px;
-        position: absolute;
+        position: fixed;
         bottom: 0px;
         z-index: 10;
         background-color: black;
@@ -209,7 +216,7 @@ body {
         border-top: 1px solid red;
         width: 100%;
         margin: 0px auto 0px;
-        position: absolute;
+        position: fixed;
         bottom: 0px;
         z-index: 10;
         background-color: black;
@@ -357,7 +364,7 @@ body {
         .roster {
           padding-top: 5vh;
           width: 100vw;
-          margin: auto;
+          margin: 0px auto -45px;
         }
       }
 
@@ -365,7 +372,7 @@ body {
         .roster {
           padding-top: 5vh;
           /*width: 100vw;*/
-          margin: auto;
+          margin: 0px auto -45px;
         }
       }
 
@@ -373,7 +380,7 @@ body {
         .roster {
           padding-top: 10vh;
           /*width: 100vw;*/
-          margin: auto;
+          margin: 0px auto -45px;
         }
       }
 
@@ -381,7 +388,7 @@ body {
           .roster_info {
             text-align: left;
             width: 90%;
-            margin: auto;
+            margin: 0px auto -45px;
           }
         }
 
@@ -477,11 +484,17 @@ body {
           }
 
             ul {
-              margin: auto;
+              margin-left: 30px;
+              font-size: 17px;
             }
 
             .rslides ul li {
               margin: auto;
+            }
+
+            #q45_ul ul {
+              margin-left: 30px;
+              font-size: 17px !important;
             }
 
         @media only screen and (max-width: 320px) {
@@ -733,6 +746,25 @@ body {
       }
     }
 
+    @media only screen and (max-width : 767px) {
+      .contact img {
+        width: 79vw;
+        border: 1px solid red;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+
+    @media only screen and (min-width : 768px) {
+      .contact img {
+        width: 100%;
+        max-width: 350px;
+        border: 1px solid red;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+
     #contact_form {
       /*border: 2px solid red;*/
       width: 70%;
@@ -876,3 +908,141 @@ body {
       width: 50px!important;
       margin: 10px 0 10px;
     }
+
+@media only screen and (min-width : 580px) {
+  .modal-header {
+      padding: 15px;
+      border-bottom: none;
+  }
+
+  .modal-content {
+      position: relative;
+      /* background-color: rgba(0, 0, 0, 0.1); */
+      background-color: black;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid white;
+      border-radius: 6px;
+      outline: 0;
+      -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      background-image: url('http://2.img-dpreview.com/files/p/E~forums/58266651/91d715ec2aaf472ebad23b27f8624edf');
+      background-size: cover;
+      background-position: right;
+      height: 520px; 
+  }
+
+    .modal-content h1 {
+      color: gold;
+      text-shadow: 1px 1px #000000;
+    }
+
+    .modal-content button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+      .modal-content button img {
+        width: 20px;
+      }
+
+    .modal-body {
+      position: absolute;
+      padding: 15px;
+      /* border: 1px solid red; */
+      /*width: 330px;*/
+      right: 0;
+    }
+
+      .modal-content p {
+      font-size: 15px;
+      text-shadow: 1px 1px #000000;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+      width: 298px;
+      display: inline-table;
+      padding: 5px 15px;
+      border: 1px solid white;
+      }
+
+      .modal-content a {
+      color: gold;
+      }
+}
+
+@media only screen and (max-width : 579px) {
+  .modal-header {
+      padding: 15px;
+      border-bottom: none;
+  }
+
+  .modal-content {
+      position: relative;
+      /* background-color: rgba(0, 0, 0, 0.1); */
+      background-color: black;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid white;
+      border-radius: 6px;
+      outline: 0;
+      -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      box-shadow: 0 3px 9px rgba(0,0,0,.5);
+      background-image: url('https://2.img-dpreview.com/files/p/E~forums/58266651/91d715ec2aaf472ebad23b27f8624edf');
+      background-size: cover;
+      background-position: 55%;
+      height: 345px;
+      margin-top: 15vh;
+  }
+
+    .modal-content h1 {
+      color: gold;
+      text-shadow: 1px 1px #000000;
+      font-size: 25px;
+      margin: 0px auto;
+      width: 100px;
+    }
+
+    .modal-content button {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+      .modal-content button img {
+        width: 20px;
+      }
+
+    .modal-body {
+      position: absolute;
+      padding: 0px;
+      /* border: 1px solid red; */
+      /* width: 175px; */
+      right: 0;
+      height: 228px;
+    }
+
+      .modal-content p {
+        font-size: 10px;
+        text-shadow: 1px 1px #000000;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 3px;
+        width: 195px;
+        padding: 5px 15px;
+        border: 1px solid white;
+      }
+
+      .modal-content a {
+      color: gold;
+      }
+}
+
+@media only screen and (min-height : 1000px) {
+  .modal-content {
+    margin-top: 20vh;
+  }
+}

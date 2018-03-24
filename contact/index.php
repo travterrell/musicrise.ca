@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   // this is the mail function with paramenters to send email.  Email sends ONLY if there are no errors
-  $to = "crossnationsmgt@gmail.com, travterrell@gmail.com";
+  $to = "gregory@musicrise.ca, travterrell@gmail.com";
   $from = $email;
   $subject = "MusicRISE Inquiry";
   // $name is already set from validation above
@@ -67,13 +67,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MusicRise&trade; - Toronto's rising talent and entertainment agency">
+    <meta name="keywords" content="MusicRise, Toronto, music, Canada, talent agency">
     <title>MusicRise&trade;</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../musicrisestyles2.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" href="../assets/musicrisefavicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -88,14 +90,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="nav row" id="nav">
           <div class="col-sm-2 col-xs-2 navlinks">
-            <a href="../index.php">
+            <a href="/">
             <img src="../assets/musicrise-logo-small.png" id="index-logo-small">
           </a>
           </div>
           <div class="col-sm-2 col-xs-2 navlinks">
           </div>
           <div class="col-sm-2 col-xs-2 navlinks">
-            <a href="../index.php">Home</a>
+            <a href="/">Home</a>
           </div>
           <div class="col-sm-2 col-xs-2 navlinks">
             <a href="../about">About</a>
@@ -111,8 +113,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="contact row" id="contact">
           <div class="col-sm-12 col-xs-12">
             <h1 id="contact_h1">Contact</h1>
-            <p>Principal Booking Agent:</p>
+            <p>Principal Talent Manager:</p>
             <p>Gregory Scott - "Cali"</p>
+            <img src="../assets/img/cali.jpg" alt="Gregory Scott - 'Cali'">
             <br>
             <p>For booking inquiries drop us a note below:</p>
             <p id="feedback"><?php echo $feedback?></p>
@@ -132,12 +135,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
               </form>
             </div>
+            <p class="footer">© <?php echo date("Y");?> MusicRISE<span>&trade;</span></p>
             <br>
-            <br>
-            <br>
-            <div class="bottom">
-              <p class="footer">© 2017 MusicRISE<span>&trade;</span></p>
-            </div>
           </div>
         </div>
 
