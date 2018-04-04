@@ -95,6 +95,9 @@ video {
 		max-width: 100% !important;
 		margin: 0px 0px 15px !important;
 	}
+	p.center {
+		text-align: center;
+	}
 }
 .roster_info {
 	&::-webkit-scrollbar-track {

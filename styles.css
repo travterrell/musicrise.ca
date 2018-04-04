@@ -71,6 +71,9 @@ video {
   max-width: 100% !important;
   margin: 0px 0px 15px !important; }
 
+.roster p.center {
+  text-align: center; }
+
 .roster_info::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: transparent; }
