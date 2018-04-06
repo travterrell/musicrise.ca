@@ -112,6 +112,7 @@ s<!DOCTYPE html>
               <h2>Ammoye</h2>
               <div class="roster_info row" id="roster_info">
                 <div class="col-sm-12 col-xs-12">
+                  <p class="center"><a class="red" href="http://www.http://ammoyemusic.com/" target="_blank">www.http://ammoyemusic.com/</a></p>
                   <p class="center">Tour Management</p>
                   <p>Rooted in the reggae music of her native Jamaica, Ammoye effortlessly glides from reggae and dancehall to gospel, soul and R&B with breathtaking ease and presence. This multi-award winning artist started out her career while living with her grandparents in Clarendon, Jamaica, finding solace from life’s trials and tribulations by singing in her local church choir. In her late teens, when her mother brought her to Toronto, Canada, she quickly established herself in the community by forming the Sisters in Christ church group and the Voices of the Underground Artist movement.</p>
                   <p>Over the past several years, Ammoye has been consistently performing at high-profile events and festivals around the world, including 2013’s 150,000 attendee EXIT festival in Serbia, sharing the stage with artists such as Ziggy Marley, Freddie McGregor, tRomain Virgo and Beenie Man, to name a few. Her career thus far has garnered several top awards including three JUNO Award nominations and multiple Best Female Vocalist and Reggae Artist accolades.</p>
@@ -179,9 +180,9 @@ s<!DOCTYPE html>
               <h2>Julian Taylor Band</h2>
               <div class="roster_info row" id="roster_info">
                 <div class="col-sm-12 col-xs-12" id="julian_taylor">
-                  <p>Tour Management</p>
                   <p><a href="http://www.juliantaylorband.com" target="_blank">www.juliantaylorband.com</a></p>
                   <p>"Pilgrims of Funk, Soul & Roll"</p>
+                  <p>Tour Management</p>
               </div>
             </div>
           </div>

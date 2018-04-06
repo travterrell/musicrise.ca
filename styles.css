@@ -43,6 +43,11 @@ video {
 #julian_taylor a {
   color: red; }
 
+.red {
+  color: red; }
+  .red:hover {
+    color: red; }
+
 #follow-us {
   font-size: 15px; }
 

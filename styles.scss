@@ -59,6 +59,12 @@ video {
 		color: $red;
 	}
 }
+.red {
+	color: $red;
+	&:hover {
+        color: $red;
+    }
+}
 #follow-us {
 	font-size: 15px;
 }
