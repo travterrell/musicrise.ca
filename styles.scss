@@ -60,9 +60,9 @@ video {
 	}
 }
 .red {
-	color: $red;
+	color: $red!important;
 	&:hover {
-        color: $red;
+        color: $red!important;
     }
 }
 #follow-us {

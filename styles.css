@@ -44,9 +44,9 @@ video {
   color: red; }
 
 .red {
-  color: red; }
+  color: red !important; }
   .red:hover {
-    color: red; }
+    color: red !important; }
 
 #follow-us {
   font-size: 15px; }
