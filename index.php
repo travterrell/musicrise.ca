@@ -29,7 +29,7 @@
 
       <div class="home">
         <img id="index-logo" src="assets/musicrise_logo.png">
-        <h1 id="tagline">Toronto's rising talent and entertainment agency</h1>
+        <h1 id="tagline">Rising talent and entertainment agency</h1>
       </div>
 
       <div class="content">
