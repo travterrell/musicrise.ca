@@ -54,7 +54,7 @@
         <div class="about row" id="about">
           <div class="col-sm-12 col-xs-12">
             <h1 id="about_h1">About</h1>
-            <p>MusicRISE<span>&trade;</span> is the Entertainment Division for Cross Nations Management.   A global boutique, booking and artist management company based in Toronto, Canada, our main focus is artist representation - talent, booking &#38; tour management. We work diligently to gain our clients' trust and confidence with their music career path. The MusicRISE<span>&trade;</span> talent roster consists of international DJs, artists &#38; bands crossing a wide range of music genres.</p>
+            <p>MusicRISE<span>&trade;</span> is a global boutique, booking and artist management company based in Toronto, Canada.  Our main focus is artist representation - talent, booking &#38; tour management. We work diligently to gain our clients' trust and confidence with their music career path. The MusicRISE<span>&trade;</span> talent roster consists of international DJs, artists &#38; bands crossing a wide range of music genres.</p>
             <a href="https://www.instagram.com/music.rise/" target="_blank"><img id="ig-logo" src="../assets/img/instagram-logo.png" alt="https://www.instagram.com/music.rise/"></a>
             <p id="follow-us">Follow us!</p>
             <p class="footer" style="margin-top: 50px">© <?php echo date("Y");?> MusicRISE<span>&trade;</span></p>
