@@ -38,14 +38,17 @@
           <div class="col-sm-2 col-xs-2 navlinks">
           </div>
           <div class="col-sm-2 col-xs-2 navlinks">
+          </div>
+          <div class="col-sm-2 col-xs-2 navlinks">
             <a href="/">Home</a>
+            <!-- <a href="../about">About</a> -->
           </div>
           <div class="col-sm-2 col-xs-2 navlinks">
             <a href="../about">About</a>
           </div>
-          <div class="col-sm-2 col-xs-2 navlinks">
+          <!-- <div class="col-sm-2 col-xs-2 navlinks">
             <a href="../roster">Roster</a>
-          </div>
+          </div> -->
           <div class="col-sm-2 col-xs-2 navlinks">
             <a href="../contact">Contact</a>
           </div>

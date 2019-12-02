@@ -34,16 +34,16 @@
 
       <div class="content">
         <div class="nav_home row">
-          <div class="col-sm-3 col-xs-3 navlinks">
+          <div class="col-sm-4 col-xs-4 navlinks">
             <a href="/">Home</a>
           </div>
-          <div class="col-sm-3 col-xs-3 navlinks">
+          <div class="col-sm-4 col-xs-4 navlinks">
             <a href="/about">About</a>
           </div>
-          <div class="col-sm-3 col-xs-3 navlinks">
+          <!-- <div class="col-sm-3 col-xs-3 navlinks">
             <a href="/roster">Roster</a>
-          </div>
-          <div class="col-sm-3 col-xs-3 navlinks">
+          </div> -->
+          <div class="col-sm-4 col-xs-4 navlinks">
             <a href="/contact">Contact</a>
           </div>
           <br>
