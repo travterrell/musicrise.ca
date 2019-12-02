@@ -57,7 +57,7 @@ s<!DOCTYPE html>
             </div>
           </div>
 
-          <div class="roster row">
+          <!-- <div class="roster row">
             <div class="col-xs-6">
               <a href="/roster/ron-allen"><img style="width: 100%" src="../assets/img/ronallen1.jpg"></a>
               <h2>Ron Allen</h2>
@@ -66,7 +66,7 @@ s<!DOCTYPE html>
               <a href="/roster/elephant-12"><img style="width: 100%" src="../assets/img/E12-1.jpg"></a>
               <h2>Elephant 12</h2>
             </div>
-          </div>
+          </div> -->
 
           <div class="roster row">
             <div class="col-xs-6">
@@ -80,15 +80,26 @@ s<!DOCTYPE html>
           </div>
 
           <div class="roster row">
-            <!-- <div class="col-xs-12">
+            <div class="col-xs-12">
+              <a href="/roster/ron-allen"><img style="width: 100%" src="../assets/img/ronallen1.jpg"></a>
+              <h2>Ron Allen</h2>
+            </div>
+            <!-- <div class="col-xs-6">
+              <a href="/roster/elephant-12"><img style="width: 100%" src="../assets/img/E12-1.jpg"></a>
+              <h2>Elephant 12</h2>
+            </div> -->
+          </div>
+
+          <!-- <div class="roster row">
+            <div class="col-xs-12">
               <a href="/roster/julian-taylor-band"><img style="width: 100%" src="../assets/img/jt-1.jpg"></a>
               <h2>Julian Taylor Band</h2>
-            </div> -->
+            </div>
             <div class="col-xs-12">
               <a href="/roster/kerian"><img style="width: 46%" src="../assets/img/kerian.jpg"></a>
               <h2>Kerian</h2>
             </div>
-          </div>
+          </div> -->
 
 
           <p class="footer">© <?php echo date("Y");?> MusicRISE<span>&trade;</span></p>

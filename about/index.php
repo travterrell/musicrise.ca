@@ -54,7 +54,7 @@
         <div class="about row" id="about">
           <div class="col-sm-12 col-xs-12">
             <h1 id="about_h1">About</h1>
-            <p>MusicRISE<span>&trade;</span> is a global boutique artist management company based in Toronto, Canada.  Our main focus is artist representation - talent, tour &#38; brand management. We work diligently to gain our clients' trust and confidence with their music career path. The MusicRISE<span>&trade;</span> talent roster consists of international artists &#38; bands crossing a wide range of music genres.</p>
+            <p>MusicRISE<span>&trade;</span> is a global talent &#38; tour management company based in Toronto, Canada.  Our main focus is artist representation - talent, tour logistics &#38; brand management. We work diligently to gain our clients' trust and confidence with their music career path. The MusicRISE<span>&trade;</span> talent roster consists of international artists &#38; bands crossing a wide range of music genres.</p>
             <a href="https://www.instagram.com/music.rise/" target="_blank"><img id="ig-logo" src="../assets/img/instagram-logo.png" alt="https://www.instagram.com/music.rise/"></a>
             <p id="follow-us">Follow us!</p>
             <p class="footer" style="margin-top: 50px">© <?php echo date("Y");?> MusicRISE<span>&trade;</span></p>
